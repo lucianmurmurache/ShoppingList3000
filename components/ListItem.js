@@ -11,7 +11,7 @@ const ListItem = ({ item, deleteItem }) => {
                     name="ios-trash"
                     size={32}
                     color="#7F0000"
-                    onPress={() => deleteItem(item.id)}
+                    onPress={() => deleteItem(item.id, item.text)}
                 />
             </View>
         </TouchableOpacity>
