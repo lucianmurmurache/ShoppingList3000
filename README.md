@@ -11,3 +11,4 @@ __$ expo init < name > --template blank --name < name >__
 
 ## Use
 
+run expo init projectName
